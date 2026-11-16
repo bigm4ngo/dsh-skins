@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Nocturne mark">
+  <!-- Nocturne mark: a two-star sparkle in a single ink colour.
+       currentColor lets the mark inherit the sidebar text colour in both modes. -->
+  <g fill="currentColor">
+    <path d="M 56.00 26.00 C 58.94 53.72 70.28 65.06 98.00 68.00 C 70.28 70.94 58.94 82.28 56.00 110.00 C 53.06 82.28 41.72 70.94 14.00 68.00 C 41.72 65.06 53.06 53.72 56.00 26.00 Z"/>
+    <path d="M 100.00 16.00 C 100.84 23.92 104.08 27.16 112.00 28.00 C 104.08 28.84 100.84 32.08 100.00 40.00 C 99.16 32.08 95.92 28.84 88.00 28.00 C 95.92 27.16 99.16 23.92 100.00 16.00 Z"/>
+  </g>
+</svg>

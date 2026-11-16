@@ -1,0 +1,14 @@
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local configuration and scratch files
+.env
+.env.*
+.agents/
+.aws/
+.codex/
+*.log
