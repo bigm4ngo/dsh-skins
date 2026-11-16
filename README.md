@@ -1,6 +1,26 @@
 # DSH Skins
 
+**English** · [简体中文](README.zh.md)
+
 Downloadable skins for DeepSeek Harness Web. Install [dsh-skin](https://github.com/bigm4ngo/dsh-skin) to load this collection in DSH and switch between skins.
+
+> **Dark mode first.** These skins are designed for DSH's dark theme. The backgrounds are dim, moody plates and the palettes are tuned to sit on top of them; light mode is shipped as a compatibility fallback, not as a design target.
+
+## Highlights
+
+![Rainy Neon, dark mode](screenshots/rainy-neon-dark.png)
+
+**[Rainy Neon](rainy-neon/)** (video) — a slow rain loop on a quiet street at blue hour, coral and teal reflections on wet pavement. Shown at **dim 0.22**. The neon carries the colour, the dark storefronts carry the text, so the interface stays crisp while the street keeps moving behind it.
+
+![Lavender Dream, dark mode](screenshots/lavender-dream-dark.png)
+
+**[Lavender Dream](lavender-dream/)** (still) — lilac clouds and silver starlight above a pastel horizon, with a 19px corner radius that matches the softness of the art. Shown at **dim 0.24**. This is the calmest of the set: no moving parts, and the plate is already low-contrast, so it reads well at almost any window size.
+
+![Midnight Library, dark mode](screenshots/midnight-library-dark.png)
+
+**[Midnight Library](midnight-library/)** (still) — a walnut library at night, brass desk lamp, rain on the window, set in Georgia. Shown at **dim 0.26**. Its plate is darker than the other two, so it needs a little less dim to show the artwork; text still clears 11:1.
+
+These are real renders of DSH 0.2.2-rc.1 with the skin applied, not mockups. Each is shown a little brighter than the skin's default dim (0.38) so the artwork is visible in the README; the 4.5:1 text-contrast floor is kept — the weakest label in these three shots measures 10.58:1. Every colour pair in the collection is authored to the same floor. Drag the **Dim** slider under **Settings → Skins** if your monitor or wallpaper needs more headroom.
 
 ## Browse the collection
 
@@ -39,7 +59,7 @@ Each skin folder contains a manifest, background, and sidebar mark. The collecti
    cp -R ./lavender-dream ~/.config/dsh/skins/
    ```
 
-3. Start or restart `dsh web`, then open **Settings → Skins** and select your skin. Reload the browser after adding more folders.
+3. Start or restart `dsh web`, then open **Settings → Skins** and select your skin. Reload the browser after adding more folders. The collection is drawn for **dark mode** — switch the theme to dark in **Settings → General** if it is not already.
 
 ### Try all 54 skins from a checkout
 
